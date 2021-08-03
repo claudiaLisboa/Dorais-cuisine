@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html>
+    <!--Lisboa Claudia
+        site web Dorais's Kitchen 
+        2021-07-27-->
+    <head>
+        <title>Dorais Cuisine </title>
+        <style type="text/css">
+		 /*here CSS*/   
+              header,section,footer,aside,nav, article, figure, figcaption { display: block; }
+
+              body {
+				color: #666666;
+				background-color: #f9f8f6;
+				background-image: url("images/wood.jpg");
+				background-position: center;
+				font-family: Georgia, Times, serif;
+				line-height: 1.4em;
+				margin: 0px;}
+			.wrapper {
+				width: 940px;
+				margin: 20px auto 20px auto;
+				border: 2px solid #000000;
+				background-color: #ffffff;}
+			header {
+				height: 160px;
+				background-image: url("images/header.jpg");}
+			h1 {
+				text-indent: -9999px;
+				width: 940px;
+				height: 130px;
+				margin: 0px;}
+			nav, footer {
+				clear: both;
+				color: #ffffff;
+				background-color: #aeaca8;
+				height: 30px;}
+			nav ul {
+				margin: 0px;
+				padding: 5px 0px 5px 30px;}
+			nav li {
+				display: inline;
+				margin-right: 40px;}
+			nav li a {
+				color: #ffffff;}
+			nav li a:hover, nav li a.current {
+				color: #000000;}
+			section.menu {
+				float: left;
+				width: 659px;
+				border-right: 1px solid #eeeeee;}
+			article {
+				clear: both;
+				overflow: auto;
+				width: 100%;}
+			hgroup {
+				margin-top: 40px;}
+			figure {
+				float: left;
+				width: 290px;
+				height:   220px;
+				padding: 5px;
+				margin: 20px;
+				border: 4px solid #eeeeee;}
+            
+			figcaption {
+				font-size: 90%;
+				text-align: left;}
+			aside {
+				width: 230px;
+				float: left;
+				padding: 0px 0px 0px 20px;}
+			aside section a {
+				display: block;
+				padding: 10px;
+				border-bottom: 1px solid #eeeeee;}
+			aside section a:hover {
+				color: #985d6a;
+				background-color: #efefef;}
+			a {
+				color: #de6581;
+				text-decoration: none;}
+			h1, h2, h3 {
+				font-weight: normal;}
+			h1 {color: rgb(12, 17, 17);}
+			h2 {
+				margin: 10px 0px 5px 0px;
+				padding: 0px;}
+			h3 {
+				margin: 0px 0px 10px 0px;
+				color: #de6581;}
+			aside h2 {
+				padding: 30px 0px 10px 0px;
+				color: #de6581;}
+			footer {
+				font-size: 80%;
+				padding: 7px 0px 0px 20px;}
+			
+			p {
+				text-align: justify;
+				margin-right: 15px;
+			}
+			p.contact {
+				font-weight: bold;
+			}
+
+        </style>
+    </head>
+    <body>
+        <div class="wrapper">
+            <header>
+                <h1>La cuisine avec Chef Dorais</h1>
+                <nav>
+                    <ul>
+                        <li><a href="" class="current">Dorais</a></li>
+                        <li><a href="recettes.html">Recettes</a></li>
+                        <li><a href="">Boutique</a></li>
+                        <li><a href="">Nous joindre</a></li>
+                    </ul>
+                </nav>
+            </header>
+            <section class="menu">
+                <article>
+                    <figure>
+                        <img src="images/asperges.png" alt="asperges" width= 290px;
+						height=   200px />
+                        <figcaption>Asperges </figcaption>
+                    </figure>
+                    <hgroup>
+                        <h2>Asperges du Québec</h2>
+                        <h3>Les recettes de la Chef</h3>
+                    </hgroup>
+                      <p>Produit de courte durée en température fraîche, il est très important de bien les choisir. 
+                        Elles doivent être fermes et souples, résistantes à la rupture, avoir un épi bien serré et ne pas être trop sèches ou fripées à la base.
+                        </p>
+                </article>
+                <article>
+                    <figure>
+                        <img src="images/Garlic-Butter-Shrimp1.jpg" alt="crevettes" width= 290px;
+						height=   200px  />
+						<figcaption>Crevettes</figcaption>
+                    </figure>
+                        <hgroup>
+                            <h2>Crevette du Nord Atlantique</h2>
+                            <h3>Les meilleures recettes pour cuisiner les crevettes</h3>
+                        </hgroup>
+                        <p>Des astuces pour cuire les crevettes.
+                        Pour manger des crevettes cuites, attention, elles sont très fragiles et ne 
+						nécessitent que quelques minutes de cuisson (environ 3 min dans l'eau bouillante). </p>
+                </article>
+            </section>
+            <aside>
+                <section class="popula-recettes">
+                    <h2>Popular Recettes</h2>
+                    <a href="recettes.html">Crevettes au beurre et à l'ail</a>
+                    <a href="recettes.html">Linguines aux crevettes</a>
+                    <a href="recettes.html">Risotto aux crevettes et aux asperges</a>
+                    <a href="recettes.html">Filet mignon de porc est arperges</a>            
+                </section>
+                <section class="contact-details">
+					<h2>Contact</h2>
+					<p class="contact">Dorais Cuisine</p>
+					<p>27 Rue des Etoiles Filantes
+						Laval, Québec E2L-7DP
+						doraiscuisine@etoiles.ca </br>
+						(514) 444-2222</p>
+				</section>
+            </aside>
+            <footer>
+                &copy; 2021 Dorais Cuisine
+            </footer>
+        </div><!-- .wrapper-->
+    </body>
+</html>
